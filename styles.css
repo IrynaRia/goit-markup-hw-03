@@ -1,3 +1,4 @@
+/* BODY */
 body {
     font-family: "Roboto",
     sans-serif;
@@ -6,19 +7,18 @@ body {
     color: #434455;
     background-color: #FFFFFF;
     line-height: 1.5;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
 
 }
-
-
-h2{
+/* .h2 {
 font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    color: #2E2F42;
-}
+    color: #2E2F42; 
+} */
 
+/* HEADER */
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -28,14 +28,8 @@ font-weight: 700;
     text-transform: uppercase;
     color: #4D5AE5;
 }
-
-
 .logo-header-part {
     color: #2E2F42;
-}
-
-.logo-footer-part{
-color: #F4F4FD;
 }
 
 .nav-item {
@@ -44,46 +38,44 @@ font-size: 16px;
 line-height: 1.5;
 color: #2E2F42;
 }
-
 .studio-link {
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2E2F42;
 }
-
-.studio-link:hover,
+.studio-link:hover {
+        color: #404bbf;
+    }
 .studio-link:focus {
 color: #404bbf;
 }
-   
-.address {
+address {
 font-style: normal;
 letter-spacing: 0.02em;
 line-height: 1.5;
 color: #434455;
 }
-
 .address-email{
 font-style: normal;
 color:#434455;
 }
-
-.address-email:hover,
+.address-email:hover {
+    color: #404bbf;
+}
 .address-email:focus {
     color:#404bbf;
 }
-
 .address-tel {
     font-style: normal;
     color: #434455;
 }
-
 .address-tel:hover,
 .address-tel:focus {
     color: #404bbf;
 }
 
+/* Section 1 Hero */
 .hero {
     background-color: #2E2F42;
 }
@@ -107,10 +99,12 @@ cursor: pointer;
 background: #4D5AE5;
 }
 
-.hero-button:hover,
+.hero-button:hover {
+background-color: #404BBF;
+}
+
 .hero-button:focus {
 background-color: #404BBF;
-
 }
 
 
@@ -122,6 +116,8 @@ letter-spacing: 0.04em;
 color: white;
 }
 
+
+/* Section 2 Feature */
 .feature-title {
 font-weight: 500;
 font-size: 20px;
@@ -131,9 +127,14 @@ color: #2E2F42;
 }
 
 .feature-description {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
  color: #434455;
 }
 
+
+
+/* Section 3 Team */
 .team {
     background-color: #F4F4FD;
 }
@@ -166,9 +167,15 @@ font-weight: 500;
     color: #434455;
 }
 
+
+/* Section 4 Portfolio */
 .portfolio-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: #2E2F42;
 }
 
 .portfolio-list-product {
@@ -180,14 +187,22 @@ color: #2E2F42;
 }
 
 .portfolio-list-product-field {
+line-height: 1.5;
+letter-spacing: 0.02em;
 color: #434455;
 }
 
-footer {
-    background-color: #2E2F42;
+/* FOOTER */
+.footer {
+background-color: #2E2F42;
 
+}
+.logo-footer-part {
+    background: #f4f4fd;
 }
 
 .footer-text {
+line-height: 1.5;
+letter-spacing: 0.03em;
 color: #F4F4FD;
 }
