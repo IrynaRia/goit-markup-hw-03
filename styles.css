@@ -19,6 +19,7 @@ font-weight: 700;
 }
 
 .logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -35,6 +36,7 @@ font-weight: 700;
 color: #F4F4FD;
 }
 
+
 .nav-item {
 font-weight: 500;
 font-size: 16px;
@@ -42,9 +44,37 @@ line-height: 1.5;
 color: #2E2F42;
 }
 
+.studio-link {
+color: #2E2F42;
+}
+
+.studio-link:hover,
+.studio-link:focus {
+color: #404bbf;
+}
+   
 .address-item {
+font-style: normal;
 line-height: 1.5;
 color: #434455;
+}
+
+.address-email{
+color:#434455;
+}
+
+.address-email:hover,
+.address-email:focus {
+    color:#404bbf;
+}
+
+.address-tel {
+    color: #434455;
+}
+
+.address-tel:hover,
+.address-tel:focus {
+    color: #404bbf;
 }
 
 .hero {
@@ -54,6 +84,7 @@ color: #434455;
 .hero-title {
 font-weight: 700;
 font-size: 56px;
+letter-spacing: 0.02em;
 line-height: 1.07;
 text-align: center;
 color: white;
@@ -61,6 +92,11 @@ color: white;
 
 .hero-button {
 display: flex;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: white;
+cursor: pointer;
 border-radius: 4px;
 padding: 16px 32px;
 width: 169px;
@@ -72,6 +108,13 @@ height: 56px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: #4D5AE5;
 }
+
+.hero-button:hover,
+.hero-button:focus {
+background-color: #404BBF;
+
+}
+
 
 .hero-button-text {
 font-weight: 500;
@@ -85,6 +128,7 @@ color: white;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
+letter-spacing: 0.02em;
 color: #2E2F42;
 }
 
@@ -96,13 +140,19 @@ color: #2E2F42;
     background-color: #F4F4FD;
 }
 
-/* .team-title {
-font-weight: 700;
+.team-title {
+letter-spacing: 0.02em;
+text-transform: capitalize;
+/* font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
-color: #2E2F42;
-} */
+color: #2E2F42; */
+}
+
+.team-list-item {
+    background-color: #FFFFFF;
+}
 
 .team-list-name {
 font-weight: 500;
@@ -118,9 +168,15 @@ font-weight: 500;
     color: #434455;
 }
 
+.portfolio-title {
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
 .portfolio-list-product {
 font-weight: 500;
 font-size: 20px;
+letter-spacing: 0.02em;
 line-height: 1.2;
 color: #2E2F42;
 }

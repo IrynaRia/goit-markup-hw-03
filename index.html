@@ -10,10 +10,9 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="/styles.css" />
     <title>Web Studio</title>
   </head>
-
   <body>
     <!-- Header -->
     <header>
@@ -22,18 +21,28 @@
           >Web<span class="logo-header-part">Studio</span></a
         >
         <ul class="nav">
-          <li class="nav-item"><a href="">Studio</a></li>
-          <li class="nav-item"><a href="">Portfolio</a></li>
-          <li class="nav-item"><a href="">Contacts</a></li>
+          <li class="nav-item">
+            <a class="studio-link" href="./index.html">Studio</a>
+          </li>
+          <li class="nav-item">
+            <a class="portfolio-link" href="">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="contacts-link" href="">Contacts</a>
+          </li>
         </ul>
       </nav>
       <address class="address">
         <ul>
           <li class="address-item">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="address-email" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li class="address-item">
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="address-tel" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
@@ -129,6 +138,7 @@
           </li>
         </ul>
       </section>
+
       <!-- Portfolio Section -->
       <section class="portfolio">
         <h2 class="portfolio-title">Our Portfolio</h2>
@@ -198,8 +208,8 @@
     </main>
 
     <!-- Footer -->
-    <footer>
-      <a href="./index.html" class="logo"
+    <footer class="footer">
+      <a class="footer-logo" href="./index.html" class="logo"
         >Web<span class="logo-footer-part">Studio</span></a
       >
       <p class="footer-text">
