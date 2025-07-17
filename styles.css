@@ -41,28 +41,18 @@ color: #404bbf;
 font-style: normal;
 }
 
-.address-email{
+.address-item-link {
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: #434455;
 }
 
-.address-email:hover {
+.address-item-link:hover {
     color: #404bbf;
 }
-.address-email:focus {
+.address-item-link:focus {
     color: #404bbf;
-}
-.address-tel {
-    letter-spacing: 0.02em;
-    line-height: 1.5;
-    color: #434455;
-}
-.address-tel:hover {
-    color: #404bbf;
-}
-.address-tel:focus {
-    color: #404bbf;
+
 }
 
 /* Section 1 Hero */
