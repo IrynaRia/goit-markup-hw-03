@@ -97,7 +97,7 @@ color: #2E2F42;
 }
 
 .feature-description {
-    font-size: 16px;
+/*     font-size: 16px; */
     line-height: 1.5;
     letter-spacing: 0.02em;
  color: #434455;
@@ -131,7 +131,7 @@ font-weight: 500;
 }
 
 .team-list-name-role {
-    font-size: 16px;
+/*     font-size: 16px; */
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -157,7 +157,7 @@ color: #2E2F42;
 }
 
 .portfolio-list-product-field {
-font-size: 16px;
+/* font-size: 16px; */
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
