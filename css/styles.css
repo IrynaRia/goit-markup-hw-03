@@ -92,11 +92,6 @@ header {
     color: #2E2F42;
 }
 
-.container {
-    display: flex;
-    
-}
-
 .header-container {
     margin-top: 25px;
     margin-bottom: 25.5px;
@@ -187,14 +182,13 @@ width: 1158px;
     background-color: #2E2F42;
         padding-top: 188px;
         padding-bottom: 188px;
-justify-content: space-between;
+
 }
 
-.hero-container{ 
+.hero-container { 
     display:block; 
     text-align: center; 
-    
-}
+    }
 
 .hero-title {
 font-size: 56px;
