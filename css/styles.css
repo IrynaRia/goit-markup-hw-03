@@ -306,7 +306,6 @@ line-height: 1.11;
 text-align: center;
 color: #2E2F42;
 margin-bottom: 72px;
-margin-bottom: 8px;
 }
 
 .team-list {
@@ -359,6 +358,7 @@ font-weight: 500;
 
 .portfolio {
 padding-top: 120px;
+padding-bottom: 120px;
 }
 
 .portfolio-conteiner{
@@ -430,9 +430,6 @@ padding: 100px 0px;
 }
 .logo-footer-part {
     color: #f4f4fd;
-
-
-    
 }
 
 .footer-logo {
