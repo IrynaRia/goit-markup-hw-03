@@ -340,7 +340,7 @@ font-weight: 500;
     text-align: center;
     color: #2E2F42;
     padding-top: 32px;
-    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .team-list-name-role {
@@ -348,8 +348,7 @@ font-weight: 500;
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
-    /* padding-top: 8px; */
-    /* margin-bottom: 32px; */
+
 }
 
 /* #endregion */
